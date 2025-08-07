@@ -1,0 +1,197 @@
+/* ===== Reset & General ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== Buttons ===== */
+button,
+input[type="submit"],
+.btn {
+  background-color: #f57cba;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover,
+.btn:hover {
+  background-color: #e5539f;
+}
+
+/* ===== Inputs & Forms ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  background: #fdfdfd;
+  transition: all 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #f57cba;
+  box-shadow: 0 0 5px rgba(245, 124, 186, 0.5);
+}
+
+/* ===== Carousel ===== */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  background-color: transparent !important;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #ffeaf4;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 30px 30px;
+}
+
+header h1 {
+  color: #d63384;
+  font-size: 2.5rem;
+}
+
+/* ===== Product Cards ===== */
+.product-card {
+  border: 1px solid #f4c2d7;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(245, 124, 186, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.product-card h3 {
+  color: #d63384;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.product-card .price {
+  color: #f57cba;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* ===== Search Bar ===== */
+.search-form {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.search-form input[type="text"] {
+  flex: 1;
+}
+
+.search-form button {
+  border-radius: 30px;
+}
+
+/* ===== Backgrounds ===== */
+.login-page,
+.register-page,
+.home-page {
+  background-image: url("assets/images/bg/bg-pink.jpg"); /* bạn thay ảnh phù hợp */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #ffeaf4;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px 30px 0 0;
+  margin-top: 40px;
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 768px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .product-card {
+    margin-bottom: 20px;
+  }
+}
