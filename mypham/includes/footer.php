@@ -1,5 +1,8 @@
 <footer class="bg-light text-center p-4 mt-5 shadow-sm">
-  <p class="mb-0">© 2025 Mỹ phẩm chính hãng. Thiết kế bởi bạn ❤️</p>
+  <p class="mb-2">© 2025 Mỹ phẩm chính hãng. Thiết kế bởi bạn ❤️</p>
+  <p class="mb-1">📞 Số điện thoại: <a href="tel:0355976580">0355 976 580</a></p>
+  <p class="mb-1">📘 Facebook: <a href="https://www.facebook.com/chi.kien.316839" target="_blank">Chi Kiên</a></p>
+  <p class="mb-0">💬 Zalo: <a href="https://zalo.me/0355976580" target="_blank">0355 976 580</a></p>
 </footer>
 
 <script src="assets/js/bootstrap.bundle.min.js"></script>
